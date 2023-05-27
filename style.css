@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: blueviolet;
+}
+.first-ul{
+    padding-top: 2vh;
+    background-color: tomato;
+    height: 15vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.first-ul li{
+    cursor: pointer;
+}
+.first-li:hover{
+    opacity: 0.7;
+    color: white;
+}
+.first-li{
+    font-size: 1.5rem;
+    margin: 0px 4vw;
+}
+li{
+    list-style: none;
+}
+.secend-ul{
+    display: none;
+    text-align: center;
+}
+.secend-ul li{
+    margin-top: 1vh;
+    font-size: 1.5rem;
+}
+.secend-ul li:hover{
+    color: white;
+}
+.mega-menu:hover ul{
+    
+    display: block;
+}
+
+/* end of mega menu */
+
+.my-cards{
+    width: 90vw;
+    height: 50vh;
+    
+    margin: 4vh auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.cards{
+    width: 30vw;
+    height: 40vh;
+    background-color: #34495e;
+    margin: 2vh;
+    border-radius: 25px;
+}
+.cards img{
+    border-radius: 25px 25px 0px 0px;
+    width: 30vw;
+    height: 30vh;
+}
+.cards img:hover{
+    opacity: 0.8;
+}
+.cards h1{
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+}
+.copy-right{
+    width: 100vw;
+    height: 5vh;
+    background-color: #2c3e50;
+    margin-top: 24vh;
+}
+.copy-right a{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+    transition: 0.5s ease-in;
+
+}
+.copy-right span{
+    color: #e74c3c;
+    transition: 0.5s ease-in-out;
+}
+.copy-right a:hover{
+
+    color: #e74c3c; 
+}
+.copy-right a:hover span{
+    color: white;
+}
+a{
+    text-decoration: none;
+    
+}
